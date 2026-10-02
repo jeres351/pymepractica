@@ -1,0 +1,29 @@
+Screen { background: $surface; }
+
+#sidebar { width: 26; background: $panel; border-right: tall $primary; padding: 1 0; }
+#marca { padding: 0 2 1 2; text-style: bold; color: $accent; }
+#menu { background: transparent; border: none; padding: 0 1; }
+
+#contenido { padding: 1 2; }
+.titulo { text-style: bold; color: $accent; margin-bottom: 1; }
+.barra { height: 3; margin-bottom: 1; }
+.barra Button { margin-right: 1; }
+DataTable { height: 1fr; border: round $primary; }
+
+.tarjetas { height: 7; margin-bottom: 1; }
+.tarjeta {
+    width: 1fr; height: 100%; border: round $primary;
+    margin-right: 1; padding: 1 2;
+    content-align: center middle; text-align: center;
+}
+
+FormModal, ConfirmModal { align: center middle; background: $background 60%; }
+#dialogo {
+    width: 64; height: auto; max-height: 92%;
+    border: round $accent; background: $panel; padding: 1 2;
+}
+#dialogo Label { margin-top: 1; }
+#dialogo .titulo { margin-top: 0; }
+#error { color: $error; height: auto; margin-top: 1; }
+#botones { height: 3; margin-top: 1; align-horizontal: right; }
+#botones Button { margin-left: 1; }
