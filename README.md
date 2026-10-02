@@ -12,6 +12,10 @@ python -m pip install -r requirements.txt
 
 poner tus credenciales Y DATOS EN  en .env
 
+ejecuten este comando y se ejecuta
+python -m presentacion.app
+
+
 BASE DE DATOS EN MYSQL PERO SE PUEDE USAR EN CUALQUIERA
 
 
